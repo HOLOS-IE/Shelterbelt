@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shelterbelt", "Shelterbelt\Shelterbelt.csproj", "{0FCB927C-4070-414D-9633-8A88AB7FD9C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FCB927C-4070-414D-9633-8A88AB7FD9C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FCB927C-4070-414D-9633-8A88AB7FD9C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FCB927C-4070-414D-9633-8A88AB7FD9C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FCB927C-4070-414D-9633-8A88AB7FD9C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2B3384B-4D9B-4173-84D6-E060EB13B053}
+	EndGlobalSection
+EndGlobal
