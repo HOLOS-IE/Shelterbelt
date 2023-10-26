@@ -1,0 +1,31 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:local="using:Shelterbelt"
+		xmlns:prism="http://prismlibrary.com/"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Shelterbelt.Views.MainWindow"
+        Icon="/Assets/Holos.ico"
+        Title="Shelterbelt">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+
+		<ContentControl Grid.Row="0"
+                        Padding="5"
+                        prism:RegionManager.RegionName="{x:Static local:UiRegions.ToolbarRegion}"
+                        Background="#FBFBF9"/>
+		<ContentControl Grid.Row="1"
+                        prism:RegionManager.RegionName="{x:Static local:UiRegions.ContentRegion}"
+                        Background="#FBFBF9"/>
+		<ContentControl Grid.Row="2"
+                        Padding="5"
+                        prism:RegionManager.RegionName="{x:Static local:UiRegions.FooterRegion}"
+                        Background="#FBFBF9"/>
+	</Grid>
+
+</Window>
